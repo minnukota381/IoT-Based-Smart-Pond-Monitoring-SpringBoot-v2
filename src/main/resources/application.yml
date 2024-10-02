@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: SmartPondMonitoring
+  data:
+    mongodb:
+      uri: mongodb+srv://minnukota381:NeptunE2509@pond.akgey.mongodb.net/smart_pond_db?retryWrites=true&w=majority
+  security:
+    user:
+      name: admin
+      password: admin123
+      roles: ADMIN
